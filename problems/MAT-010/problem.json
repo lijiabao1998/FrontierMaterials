@@ -1,0 +1,27 @@
+{
+  "id": "MAT-010",
+  "domain": "materials",
+  "title": "生成式材料模型的化學有效性與新穎性",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "生成 crystal candidates 時如何同時保持價態/化學合理、結構多樣、新穎與下游穩定，而不靠事後大量丟棄。",
+  "known_result": "CrysVCD 2026把valence constraints嵌入生成流程，顯著提高化學有效與穩定候選率。",
+  "open_gap": "constraint completeness、novelty metric、training-set memorization與property conditioning trade-off。",
+  "first_task": "用公開小晶體集重現無constraint vs valence-constrained validity；做structure/composition nearest-neighbor leakage audit。",
+  "evaluator": "validity、uniqueness、novelty、Ehull/phonon proxy、memorization rate。",
+  "validation_limits": "化學有效不等於可合成或高性能；新穎metric可能被representation操弄。",
+  "completion_criterion": "在時間/chemical-family held-out set上產生非memorized、可高階驗證候選並保留多樣性。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；不是完整全網未解證明。每輪重新查文獻、資料版本及實驗狀態。",
+  "screening_queries": [
+    "valence constrained generative crystal materials 2026"
+  ],
+  "sources": [
+    {
+      "title": "Enhancing materials discovery with valence-constrained design in generative modeling",
+      "url": "https://www.nature.com/articles/s43588-026-01037-2",
+      "kind": "primary",
+      "supports": "化學constraint、validity與generative crystal design"
+    }
+  ]
+}

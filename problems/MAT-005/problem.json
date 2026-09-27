@@ -1,0 +1,27 @@
+{
+  "id": "MAT-005",
+  "domain": "materials",
+  "title": "有限溫相變與勢能面可靠性",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "從0K能量模型推到有限溫 phase boundaries 時，如何控制 sampling、anharmonicity 與 potential bias。",
+  "known_result": "近期ML-potential工作強調 reference bias 可扭曲 thermodynamic phase transition 預測。",
+  "open_gap": "有限尺寸、長時間取樣、anharmonic free energies 與模型外推。",
+  "first_task": "用toy double-well/簡單晶格模型建立解析/高精度reference，再測 learned potential 的transition temperature。",
+  "evaluator": "free-energy difference、transition temperature、finite-size scaling、sampling ESS。",
+  "validation_limits": "單一路徑MD觀測到轉變不等於平衡phase boundary。",
+  "completion_criterion": "在至少兩個held-out thermodynamic paths上重現 reference phase behavior 與 uncertainty。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；不是完整全網未解證明。每輪重新查文獻、資料版本及實驗狀態。",
+  "screening_queries": [
+    "machine learning potential thermodynamic phase transition 2026"
+  ],
+  "sources": [
+    {
+      "title": "Refining machine learning potentials through thermodynamic theory of phase transitions",
+      "url": "https://www.nature.com/articles/s41524-026-02195-7",
+      "kind": "primary",
+      "supports": "有限溫相變作為MLIP壓力測試"
+    }
+  ]
+}

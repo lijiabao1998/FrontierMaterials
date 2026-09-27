@@ -1,0 +1,27 @@
+{
+  "id": "MAT-004",
+  "domain": "materials",
+  "title": "Universal ML potentials 的 transferability",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "通用機器學習原子間勢能在未見 composition、phase、defect、pressure 及 transition region 是否保持可診斷精度。",
+  "known_result": "2026工作指出reference data coverage與systematic bias會影響phase-transition預測；uMLIP在複雜CSP也需高階方法交叉驗。",
+  "open_gap": "out-of-domain detection、rare transition configurations、error propagation to thermodynamics。",
+  "first_task": "固定一個小相變system，對比MLIP與DFT reference，在訓練內/外構型量energy/force/stress。",
+  "evaluator": "energy/force/stress errors、phase observable、OOD score、trajectory stability。",
+  "validation_limits": "低平均MAE可掩蓋transition region大錯；MD穩定不等於物理正確。",
+  "completion_criterion": "在預註冊OOD families上能預測或拒絕不可靠區域，並保持target observable誤差界。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；不是完整全網未解證明。每輪重新查文獻、資料版本及實驗狀態。",
+  "screening_queries": [
+    "universal machine learning potentials transferability phase transitions 2026"
+  ],
+  "sources": [
+    {
+      "title": "Refining machine learning potentials through thermodynamic theory of phase transitions",
+      "url": "https://www.nature.com/articles/s41524-026-02195-7",
+      "kind": "primary",
+      "supports": "phase-transition data bias與ML potential可靠性"
+    }
+  ]
+}

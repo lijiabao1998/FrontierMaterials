@@ -1,0 +1,27 @@
+{
+  "id": "MAT-008",
+  "domain": "materials",
+  "title": "缺陷／無序對功能性質的影響",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "對點缺陷、部分佔位、無序與局部結構，如何從有限supercell/ensemble估算 bulk functional property 與 uncertainty。",
+  "known_result": "2026 AI materials review指出inverse design與生成模型仍需更好結合物理/化學constraints；實際材料無序與缺陷超出理想晶體資料庫表示。",
+  "open_gap": "configuration explosion、finite-size、rare defects 與property averaging。",
+  "first_task": "選簡單binary lattice toy/material public dataset，枚舉小supercell無序構型，量property distribution。",
+  "evaluator": "ensemble mean/variance、finite-size convergence、symmetry deduplication。",
+  "validation_limits": "單一最低能構型不能代表實際disorder ensemble。",
+  "completion_criterion": "在凍結composition/T條件下給可收斂ensemble property與可重現uncertainty。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；不是完整全網未解證明。每輪重新查文獻、資料版本及實驗狀態。",
+  "screening_queries": [
+    "AI materials design disorder defects inverse design 2026"
+  ],
+  "sources": [
+    {
+      "title": "Artificial intelligence-driven approaches for materials design and discovery",
+      "url": "https://www.nature.com/articles/s41563-025-02403-7",
+      "kind": "primary",
+      "supports": "inverse design進展與未解constraints/realism"
+    }
+  ]
+}

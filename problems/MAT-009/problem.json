@@ -1,0 +1,27 @@
+{
+  "id": "MAT-009",
+  "domain": "materials",
+  "title": "亞穩相與 kinetic accessibility",
+  "status": "OPEN",
+  "priority": "C",
+  "checked_on": "2026-09-28",
+  "statement": "預測哪一些高於0K convex hull的亞穩相可在實際非平衡條件形成並長期存在。",
+  "known_result": "2026 synthesis-gap文獻強調僅用thermodynamic stability會錯過可實現metastable materials。",
+  "open_gap": "formation kinetics、nucleation barriers、processing history與數據缺少可靠negative labels。",
+  "first_task": "對一個有多相公開phase diagram的系統，整理已知metastable phases與processing context，測單純Ehull ranking的失敗。",
+  "evaluator": "time-split ranking、calibration、false negatives；不把unreported當negative。",
+  "validation_limits": "沒有發表合成紀錄不等於不能合成。",
+  "completion_criterion": "對限定材料族及process class建立可外部驗證的metastability/synthesizability ranking。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；不是完整全網未解證明。每輪重新查文獻、資料版本及實驗狀態。",
+  "screening_queries": [
+    "metastable materials synthesizability kinetic accessibility 2026"
+  ],
+  "sources": [
+    {
+      "title": "Closing the synthesis gap in computational materials design",
+      "url": "https://www.nature.com/articles/s44160-026-01027-2",
+      "kind": "primary",
+      "supports": "metastability、reaction conditions與synthesizability gap"
+    }
+  ]
+}

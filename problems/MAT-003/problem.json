@@ -1,0 +1,27 @@
+{
+  "id": "MAT-003",
+  "domain": "materials",
+  "title": "虛擬穩定性到可合成性的落差",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "對計算預測穩定或亞穩的無機晶體，建立能預測實際合成可達性的指標，而不把0K hull distance當 synthesis truth。",
+  "known_result": "2026 Nature Synthesis perspective 明確把 thermodynamics、chemical heuristics、synthesis planning 與實驗 feedback 視為 closing synthesis gap 的核心。",
+  "open_gap": "反應路徑、kinetics、precursors、finite-T potentials 與 literature publication bias。",
+  "first_task": "挑一個公開 ternary system，對已知已合成/未報導候選比較0K hull、簡單反應 driving force 和文獻狀態。",
+  "evaluator": "retrospective precision/recall、calibration、false-positive analysis；時間切分避免未來資訊洩漏。",
+  "validation_limits": "未報導不等於不可合成；文獻缺失不是負標籤。",
+  "completion_criterion": "在時間切分的 held-out systems 對後續實驗結果有穩定、校準的 ranking，並明列不可識別案例。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；不是完整全網未解證明。每輪重新查文獻、資料版本及實驗狀態。",
+  "screening_queries": [
+    "closing synthesis gap computational materials 2026"
+  ],
+  "sources": [
+    {
+      "title": "Closing the synthesis gap in computational materials design",
+      "url": "https://www.nature.com/articles/s44160-026-01027-2",
+      "kind": "primary",
+      "supports": "虛擬候選到實際合成的主要缺口"
+    }
+  ]
+}

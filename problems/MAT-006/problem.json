@@ -1,0 +1,27 @@
+{
+  "id": "MAT-006",
+  "domain": "materials",
+  "title": "電池材料退化與多物理耦合",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "在電化學、熱、機械與界面訊號共同作用下，哪些材料狀態可被在線辨識並預測退化/安全風險。",
+  "known_result": "2026 smart-battery review 強調 responsive materials、integrated sensing 與AI interpretation需共同平衡 compatibility、mass/volume與lifecycle。",
+  "open_gap": "跨cell design、sensor drift、hidden state identifiability 與 degradation causality。",
+  "first_task": "先用公開synthetic/benign cycling data做state-estimation baseline，加入sensor missingness與drift。",
+  "evaluator": "state error、calibration、early-warning lead time、false alarms。",
+  "validation_limits": "相關感測訊號不等於退化機制；本repo不操作實體電池。",
+  "completion_criterion": "在明列cell/data條件下有跨設備/週期的可重現辨識與預測；更廣機制保留。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；不是完整全網未解證明。每輪重新查文獻、資料版本及實驗狀態。",
+  "screening_queries": [
+    "smart battery materials sensing degradation 2026"
+  ],
+  "sources": [
+    {
+      "title": "Materials design and integration strategies for next-generation smart batteries",
+      "url": "https://www.nature.com/articles/s41578-026-00957-9",
+      "kind": "primary",
+      "supports": "材料、感測、退化與系統整合的前沿挑戰"
+    }
+  ]
+}

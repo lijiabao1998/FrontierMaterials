@@ -1,0 +1,27 @@
+{
+  "id": "MAT-001",
+  "domain": "materials",
+  "title": "超導材料發現的跨化學空間泛化",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "對未見化學家族與壓力條件，能否可靠預測電子—聲子超導候選並控制假陽性，且把 conventional 與 unconventional 機制分開。",
+  "known_result": "2026 BEE-NET workflow 從大規模候選中篩出並實驗確認兩個新超導體，但高壓與 unconventional observables 仍是明示限制。",
+  "open_gap": "跨化學域、壓力及機制 transferability。",
+  "first_task": "重現公開小樣本的金屬/穩定/Tc分層分類，做 family-held-out split。",
+  "evaluator": "precision/recall、DFT-confirmation rate、calibration、family shift。",
+  "validation_limits": "預測 Tc 不等於實驗超導；Allen-Dynes 不覆蓋 unconventional 機制。",
+  "completion_criterion": "對凍結機制與條件的未見 family 有可重現候選品質並由高階計算/實驗獨立確認。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；不是完整全網未解證明。每輪重新查文獻、資料版本及實驗狀態。",
+  "screening_queries": [
+    "2026 AI accelerated superconductor discovery BEE-NET"
+  ],
+  "sources": [
+    {
+      "title": "Developing a complete AI-accelerated workflow for superconductor discovery",
+      "url": "https://www.nature.com/articles/s41524-026-01964-8",
+      "kind": "primary",
+      "supports": "2026超導發現workflow及其適用限制"
+    }
+  ]
+}

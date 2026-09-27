@@ -1,0 +1,27 @@
+{
+  "id": "MAT-007",
+  "domain": "materials",
+  "title": "熱電材料的多目標 inverse design",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "同時最佳化電導、Seebeck、熱導、穩定與可合成性，而非只追單一預測ZT。",
+  "known_result": "2026 thermoelectric inverse-design工作以generative AI + hierarchical first-principles screening探索未報導候選。",
+  "open_gap": "多性質 trade-off、OOD prediction、finite-T transport 與 synthesis gap。",
+  "first_task": "建立小型Pareto baseline，固定三個可公開重現property predictors與constraint。",
+  "evaluator": "Pareto hypervolume、constraint satisfaction、DFT verification rate。",
+  "validation_limits": "predicted ZT不等於實驗ZT；不同temperature window不可混。",
+  "completion_criterion": "在held-out chemistry上找到可高階計算重驗的Pareto improvement，實驗另行分層。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；不是完整全網未解證明。每輪重新查文獻、資料版本及實驗狀態。",
+  "screening_queries": [
+    "2026 thermoelectric inverse design generative materials"
+  ],
+  "sources": [
+    {
+      "title": "A new funnel for thermoelectric materials discovery",
+      "url": "https://www.nature.com/articles/s41578-026-00965-9",
+      "kind": "primary",
+      "supports": "熱電inverse-design的多目標發現框架"
+    }
+  ]
+}

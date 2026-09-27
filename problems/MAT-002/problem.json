@@ -1,0 +1,27 @@
+{
+  "id": "MAT-002",
+  "domain": "materials",
+  "title": "高壓晶體結構預測",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "在數十至數百GPa及未見化學組成下，可靠搜尋 pressure-stabilized structures 並排序 enthalpy/phase stability。",
+  "known_result": "OpenCSP 2026 指出多數大 atomistic models 偏向近常壓資料，造成高壓 stress/stoichiometry coverage 缺口。",
+  "open_gap": "高壓 transfer、search completeness、不同 electronic-structure level 的排序一致性。",
+  "first_task": "選一個公開 binary system，重現常壓與一個高壓點的小候選集及 relaxation。",
+  "evaluator": "enthalpy ranking、stress error、phonon/dynamic stability、search recall。",
+  "validation_limits": "沒找到更低enthalpy結構不證 global optimum；ML potential 排序需高階方法交叉驗。",
+  "completion_criterion": "在明列 composition/pressure window 對已知相有高 recall，並對新候選提供獨立高階計算證書。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；不是完整全網未解證明。每輪重新查文獻、資料版本及實驗狀態。",
+  "screening_queries": [
+    "OpenCSP high pressure crystal structure prediction 2026"
+  ],
+  "sources": [
+    {
+      "title": "OpenCSP: a deep learning framework for crystal structure prediction from ambient to high pressure",
+      "url": "https://www.nature.com/articles/s41524-026-02180-0",
+      "kind": "primary",
+      "supports": "高壓CSP與training-domain限制"
+    }
+  ]
+}
