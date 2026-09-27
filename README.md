@@ -17,4 +17,4 @@
 | MAT-009 | 亞穩相與 kinetic accessibility | C |
 | MAT-010 | 生成式材料模型的化學有效性與新穎性 | A |
 
-每輪按治理 091d6a26a4af8522683711483f2b97afd90efa7f fresh search；OPEN 只是初始篩查狀態。計算穩定、動力穩定、可合成、實驗確認分開記。
+每輪按治理 f40beb161b6c87201d8082ecbc29c7e0b3eaa402 fresh search；OPEN 只是初始篩查狀態。計算穩定、動力穩定、可合成、實驗確認分開記。
